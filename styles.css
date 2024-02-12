@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5ab; /* Cream */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to bottom, #8b4513, #4d2f28); /* Gradient from saddle brown to darker brown */
+    color: #f3e5ab; /* Cream */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #e2d397; /* Cream */
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    color: #cd853f; /* Change color on hover to peru */
+}
+
+.section {
+    padding: 20px 0; /* Reduce padding */
+}
+
+.menu {
+    background-color: #f9eed8; /* Light cream */
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    color: #8b4513; /* Saddle brown */
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.menu-item {
+    width: calc(33.33% - 20px); /* Set the width to 33.33% minus the margin */
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto; /* Set height to auto to maintain image aspect ratio */
+    max-height: 200px; /* Set maximum height for images */
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.menu-item-content {
+    padding: 20px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    color: #8b4513; /* Saddle brown */
+}
+
+.menu-item p {
+    color: #4d2f28; /* Brown */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    background: linear-gradient(to bottom, #8b4513, #4d2f28); /* Gradient from saddle brown to darker brown */
+    color: #f3e5ab; /* Cream */
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
